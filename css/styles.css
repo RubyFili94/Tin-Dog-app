@@ -1,0 +1,178 @@
+body {
+    font-family: "Arial Black", "Arial Bold";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+   padding: 10px 50px 30px 30px;
+}
+
+h1 {
+  font-family: "Arial Black", "Arial Bold";
+  font-size: 80px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Arial Black", "Arial Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Arial Black", "Arial Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.title-site {
+  font-size: 65px;
+  text-align:left;
+  padding-left: 12rem;
+
+}
+
+/* Navbar */
+
+.navbar {
+  padding-bottom: 10rem;
+  padding-left: 1rem;
+}
+
+.navbar-brand {
+  font-family:"Montserrat";
+  font-size: 80px;
+  font-weight: bold;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+  position: relative;
+   left: 900px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.row {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.download-button {
+  margin: 5% 3% 10% 0;
+}
+
+/* image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* Features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+  font-size:
+}
+
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-table {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.cta-sentence {
+  font-size: 4rem;
+  font-family: "Arial Black", "Arial Bold";
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+ #footer {
+   padding: 7% 15%;
+   text-align: center;
+ }
+
+.social-icon: {
+  margin: 20px 10px;
+}
+
+@media (max-width: 990px) {
+   .title-image {
+     position: static;
+     width: 45%;
+     transform: rotate(0);
+   }
+}
